@@ -16,7 +16,7 @@ const fishCollection = [
     {
         name: "Bart",
         food: "crustaceans",
-		image: "bluefish.jpg",
+		image: "bluefish.jpeg",
 		species: "Trigger",
 		length: 7,
 		waterType: "Salt",
@@ -25,7 +25,7 @@ const fishCollection = [
 	{
         name: "Mr Freeze",
         food: "Meal Worms",
-		image: "cat.jpg",
+		image: "cat.jpeg",
 		species: "Tang",
 		length: 3,
 		waterType: "Salt",
@@ -34,7 +34,7 @@ const fishCollection = [
 	{
         name: "Nemo",
         food: "Goldfish",
-        image: "crazy-fish.jpg",
+        image: "crazy-fish.jpeg",
         species: "Clown",
         length: 3,
         waterType: "Salt-water",
@@ -43,7 +43,7 @@ const fishCollection = [
 	{
         name: "Don Julio",
         food: "snails",
-        image: "dopeyfish.jpg",
+        image: "dopeyfish.jpeg",
         species: "Stingray",
         length: 9,
         waterType: "Salt",
@@ -52,7 +52,7 @@ const fishCollection = [
 	{
         name: "Karen",
         food: "Algae",
-        image: "Gold.jpg",
+        image: "Gold.jpeg",
         species: "Siamese algae eater",
         length: 5,
         waterType: "salt", 
@@ -61,7 +61,7 @@ const fishCollection = [
 	{
 		name: "Robin Gilliams",
 		food: "Bee Moths",
-		image: "orangefish.jpg",
+		image: "orangefish.jpeg",
 		species: "Clownfish",
 		length: 2,
 		waterType: "Salt",
@@ -79,7 +79,7 @@ const fishCollection = [
 	{
         name: "Bloat",
         food: "shrimp",
-        image: "purplefish.jpg",
+        image: "purplefish.jpeg",
         species: "Blow Fish",
         length: 5,
         waterType: "Salt",
@@ -88,10 +88,22 @@ const fishCollection = [
 	{
         name: "Gordon",
         food: "Krill",
-        image: "yellowbluefish.jpg",
+        image: "yellowbluefish.jpeg",
         species: "Blowfish",
         length: 3,
         waterType: "Salt",
         harvestLocation: "Asia"
+
+    },
+    {
+
+        name: "Garfield",
+        food: "Lasagna Pellets",
+        image: "GarfieldFishin.png",
+        species: "Catfish",
+        length: 20,
+        waterType: "Fresh",
+        harvestLocation: "America"
+
     }
 ]
