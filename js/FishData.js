@@ -8,10 +8,6 @@
 const myName = "Brenda";
 let myFavoriteColor = "Yellow";
 
-export const getFish = () => {
-    return fishCollection
-}
-
 const fishCollection = [
     {
         name: "Bart",
@@ -95,3 +91,34 @@ const fishCollection = [
         harvestLocation: "Asia"
     }
 ]
+
+export const getFish = () => {
+    return fishCollection
+}
+
+export const getMostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFishArray = []
+
+    for (const fishtaco of fishCollection) {
+        if(fishtaco.length % 3 === 0){
+           holyFishArray.push(fishtaco); 
+        }
+    }
+    return holyFishArray
+}
+
+export const getSoldierFish = () => {
+    //5,10,   20,
+    const soldierFishArray = [];
+
+    for (const fishObj of fishCollection){
+        if (fishObj.length % 5 === 0){
+            soldierFishArray.push(fishObj);
+        }
+    }
+
+    return soldierFishArray;
+}
+
+
